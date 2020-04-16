@@ -28,12 +28,12 @@ public class Swagger2 {
 
     private ApiInfo apiInfo(){
         Contact contact=new Contact();
-        contact.setName("CG");
+        contact.setName("Jared");
         contact.setUrl("http://baidu.com");
-        contact.setEmail("1634337925@qq.com");
+        contact.setEmail("982587532@qq.com");
         return new ApiInfoBuilder()
-                .title("CG API")
-                .description("CG API CG's zone,CG's rule")
+                .title("Jared API")
+                .description("Jared's API rule")
                 .version("2.0")
                 .contact(contact.toString())
                 .license("The Apache License, Version 2.0")
